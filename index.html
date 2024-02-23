@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="fullsite">
+      <!-- start of home page  -->
+      <div class="hero">
+        <nav>
+          <h2 class="logo"><span>Denisse</span></h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <section id="home">
+          <div class="text">Hi my name is Denisse Henriquez Dubon</div>
+          <div class="wrapper">
+            <div class="static-txt">And I'm a</div>
+
+            <ul class="dynamic-txt">
+              <li><span>Frontend Developer</span></li>
+            </ul>
+          </div>
+          <div class="social">
+            <h6>
+              <a href="https://github.com/Denisse03">
+                <i style="color: white" class="fa-brands fa-github"></i
+              ></a>
+            </h6>
+            <h6>
+              <a href="https://www.linkedin.com/in/denisse-henriquezdubon/"
+                ><i style="color: white" class="fa-brands fa-linkedin"></i
+              ></a>
+            </h6>
+            <h6>
+              <a href="images/Resume-6.pdf" download="Resume.pdf">
+                <i style="color: white" class="fa-solid fa-file"></i>
+              </a>
+            </h6>
+          </div>
+        </section>
+      </div>
+      <!-- end of home page  -->
+
+      <!-- start of web project -->
+      <section id="project">
+        <div class="title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="website">
+          <div class="web1">
+            <div class="title1">Eventsy</div>
+
+            <div class="project1">
+              <a
+                href="https://in-info-web4.informatics.iupui.edu/~dhenriqu/final-project/#home
+              "
+              >
+                <img
+                  style="background-position: center; background-size: cover"
+                  src="images/events.jpg"
+                  alt="events"
+                />
+              </a>
+            </div>
+
+            <p>
+              In this website I create this application by using html, css, and
+              javascript. This website lets you know the events that are
+              happening and there is also blogs that you can read.
+            </p>
+          </div>
+          <div class="web2">
+            <div class="title1">Travel-Fly</div>
+
+            <div class="project1">
+              <a
+                href="https://in-info-web4.informatics.iupui.edu/~dhenriqu/homework-seven/special.html
+              "
+              >
+                <img
+                  style="background-position: center; background-size: cover"
+                  src="images/travel.jpg"
+                  alt="events"
+                />
+              </a>
+            </div>
+
+            <p>
+              In this website I create this application by using html, scss, and
+              javascript. This website has details and package you can chose
+              from to travel all over the world. There are also two special
+              deals that you can get and a way to contact if you are having any
+              issue.
+            </p>
+          </div>
+          <div class="web3">
+            <div class="title1">Jungle Cookbook</div>
+
+            <div class="project1">
+              <a
+                href="https://in-info-web4.informatics.iupui.edu/~nanipime/JungleFinalProject/"
+              >
+                <img
+                  style="background-position: center; background-size: cover"
+                  src="images/cook.jpg"
+                  alt="events"
+                />
+              </a>
+            </div>
+
+            <p>
+              In this website I work with another person. What I did in this
+              website is I created the home, browser, and login. I used html,
+              scss, and javascript to be able create this website.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of web project -->
+
+      <!-- start of about me  -->
+      <section id="about">
+        <div class="main">
+          <img src="images/IMG_7321.JPG" alt="photo" />
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p class="about_bio">
+              I am a third-year student at IUPUI, majoring in Informatics with a
+              specialization in Web Design and Development. My passion lies in
+              crafting visually appealing and user-friendly websites. Beyond web
+              design, I find immense satisfaction in working on projects that
+              involve audio aspects, showcasing my diverse interests and skills.
+            </p>
+            <div class="know">
+              <button>HTML</button>
+              <button>CSS</button>
+              <button>SCSS</button>
+              <button>JAVASCRIPT</button>
+            </div>
+            <div class="know">
+              <button>REACT.JS</button>
+              <button>VUE.JS</button>
+              <button>GIT VERSION CONTROL</button>
+              <button>PHP</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of about me -->
+
+      <!-- start of contact page -->
+      <section id="contact">
+        <div class="contact_info">
+          <div class="form">
+            <h2>CONTACT ME</h2>
+          </div>
+          <form
+            id="contactForm"
+            action="your_form_processing_script.php"
+            method="post"
+          >
+            <div class="form-box">
+              <div class="input-boxes">
+                <input type="text" name="name" placeholder="Your name..." />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email Address..."
+                />
+                <input type="text" name="phone" placeholder="Phone Number..." />
+                <textarea name="message" placeholder="Message..."></textarea>
+                <div class="button-message">
+                  <button type="reset" class="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- end of contact page -->
+
+      <!-- start of footer -->
+      <footer>
+        <p class="copy">@copyright Denisse Henriquez Dubon</p>
+      </footer>
+      <!-- end of footer -->
+    </div>
+  </body>
+</html>
